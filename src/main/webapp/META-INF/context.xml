@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WebScraper">
+    <Resource auth="Container" 
+              driverClassName="com.mysql.jdbc.Driver" 
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" 
+              name="WebScraper" 
+              type="javax.sql.DataSource" 
+              url="jdbc:mysql://localhost:3306/webscraper?zeroDateTimeBehavior=convertToNull" 
+              username="cst8288"
+              password="8288" 
+              removeAbandoned="true" 
+              removeAbandonedTimeout="20" 
+              initialSize="1" 
+              logAbandoned="false" 
+              maxActive="100" 
+              maxIdle="10"
+              minIdle="0" 
+              maxWaitMillis="20" />
+</Context>

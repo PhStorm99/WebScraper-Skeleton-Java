@@ -1,0 +1,32 @@
+/* 
+    Created on : Sep 9, 2019, 3:59:59 AM
+    Author     : Shariar
+
+    built fordiv and img elements
+*/
+body{
+    background-color: red;
+    
+   }
+   
+
+div.imageContainer{
+    display: inline-block;
+    border-width: 0;
+    max-width: 50%;
+    max-height: 100px;
+    margin: 10px 10px auto auto;
+    padding: 0;
+    text-align: center;
+}
+
+div img.imageThumb{
+    vertical-align: middle;
+    text-align: center;
+    margin:0;
+    object-fit: cover;
+    max-width: 50%;
+    max-height: 100px;
+/*    min-width: 100px;
+    min-height: 50px;*/
+}
