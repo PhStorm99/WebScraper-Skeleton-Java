@@ -85,13 +85,13 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-agroal</artifactId>
-            <version>5.3.11.Final</version>
+            <version>5.4.24.Final</version>
             <type>pom</type>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.17</version>
+            <version>8.0.29</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
